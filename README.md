@@ -20,14 +20,22 @@ CulinaryPress: Mealie Recipe PDF Generator is a sophisticated, Python-based tool
 2. Install the required Python packages: `requests` and `pdfkit`.
 3. Ensure wkhtmltopdf is installed on your system (required by pdfkit).
 
+
 ## Configuration
-- **config.ini**: Create a `config.ini` file in the project root, containing your Mealie API URL and access token.
-- **Structure**: 
-  ```
-  [API]
-  url = YOUR_MEALIE_API_URL
-  token = YOUR_API_TOKEN
-  ```
+Create a `config.ini` file in the project root with the following structure:
+------------------------------------------
+[Mealie]
+api_url = http://YOUR_MEALIE_HOST_ADDRESS:9925/api
+api_token = YOUR_MEALIE_API_TOKEN
+
+[Paths]
+OutputDirectory = C:\WHERE_EVER_YOU_ARE_RUNNING_THIS_FROM\WHAT_EVER_OUTPUT_FOLDER_NAME_YOU_LIKE
+-------------------------------------------
+- **Mealie Section**: Contains the URL and token for Mealie API access.
+- **Paths Section**: Define the output directory for the generated PDF recipes.
+
+Note: Update the `OutputDirectory` path to match your desired location for saving the PDF files.
+Update the `config.ini` file in the project root, to add your Mealie API URL and access token.
 
 ## Usage
 1. **Fetching Recipes**:
