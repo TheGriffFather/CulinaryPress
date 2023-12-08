@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li::before {
+    content: "• ";
+    color: #007BFF;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
