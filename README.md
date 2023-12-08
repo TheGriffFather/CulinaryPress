@@ -33,6 +33,7 @@ api_url = http://YOUR_MEALIE_HOST_ADDRESS:9925/api
 api_token = YOUR_MEALIE_API_TOKEN
 
 [Paths]
+
 OutputDirectory = C:\WHERE_EVER_YOU_ARE_RUNNING_THIS_FROM\WHAT_EVER_OUTPUT_FOLDER_NAME_YOU_LIKE
 
 -------------------------------------------
