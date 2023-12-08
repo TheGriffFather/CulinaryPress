@@ -23,6 +23,7 @@ CulinaryPress: Mealie Recipe PDF Generator is a sophisticated, Python-based tool
 
 ## Configuration
 Create a `config.ini` file in the project root with the following structure:
+
 ------------------------------------------
 [Mealie]
 api_url = http://YOUR_MEALIE_HOST_ADDRESS:9925/api
@@ -31,6 +32,7 @@ api_token = YOUR_MEALIE_API_TOKEN
 [Paths]
 OutputDirectory = C:\WHERE_EVER_YOU_ARE_RUNNING_THIS_FROM\WHAT_EVER_OUTPUT_FOLDER_NAME_YOU_LIKE
 -------------------------------------------
+
 - **Mealie Section**: Contains the URL and token for Mealie API access.
 - **Paths Section**: Define the output directory for the generated PDF recipes.
 
